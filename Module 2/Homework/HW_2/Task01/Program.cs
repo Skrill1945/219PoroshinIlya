@@ -39,9 +39,9 @@ namespace Task01
         public static MyComplex operator /(MyComplex a, MyComplex b)
         {
             return new MyComplex((a.Real * b.Real + a.Imaginary * b.Imaginary) / (b.Real * b.Real + b.Imaginary * b.Imaginary), (a.Imaginary * b.Real - a.Real * b.Imaginary) / (b.Real * b.Real + b.Imaginary * b.Imaginary));
-        }     
+        }
 
-    public double Mod()
+        public double Mod()
         {
             return Math.Abs(re * re + im * im);
         }

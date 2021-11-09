@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{C9596FD8-2B8E-40A0-9530-B68C2DB8E2D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task01", "Task01\Task01.csproj", "{840095D7-2E6E-41BE-B377-B9AE5ACCAC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task05", "Task05\Task05.csproj", "{AAF55D60-E8E9-4C49-AA85-4B85AC660B05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C9596FD8-2B8E-40A0-9530-B68C2DB8E2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9596FD8-2B8E-40A0-9530-B68C2DB8E2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9596FD8-2B8E-40A0-9530-B68C2DB8E2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9596FD8-2B8E-40A0-9530-B68C2DB8E2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840095D7-2E6E-41BE-B377-B9AE5ACCAC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840095D7-2E6E-41BE-B377-B9AE5ACCAC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840095D7-2E6E-41BE-B377-B9AE5ACCAC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840095D7-2E6E-41BE-B377-B9AE5ACCAC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF55D60-E8E9-4C49-AA85-4B85AC660B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF55D60-E8E9-4C49-AA85-4B85AC660B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF55D60-E8E9-4C49-AA85-4B85AC660B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF55D60-E8E9-4C49-AA85-4B85AC660B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3A18EC78-A1BB-4080-A58B-B72DBF7C0DD8}
+		SolutionGuid = {507775E2-2C3A-470E-BBBA-60A65B213FF1}
 	EndGlobalSection
 EndGlobal

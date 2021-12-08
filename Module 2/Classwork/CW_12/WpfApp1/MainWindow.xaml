@@ -1,0 +1,74 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <DockPanel Background="#FFFF9966" Margin="0,0,0,110">
+            <Menu DockPanel.Dock="Top" Height="25" VerticalAlignment="Top">
+                <MenuItem Header="Файл">
+                    <MenuItem Header="Создать" ></MenuItem>
+                    <MenuItem Header="Открыть" >
+                        <MenuItem Header="WinForms"></MenuItem>
+                        <MenuItem Header="WPF" ></MenuItem>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Выйти" ></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Изменить" ></MenuItem>
+                <MenuItem Header="Вид" ></MenuItem>
+            </Menu>
+
+
+            <StackPanel DockPanel.Dock="Left" Background="#FF3399CC" Orientation="Vertical" Width="150">
+                <Button Background="White" Content="Кнопка 1" Width="100" Height="30" VerticalAlignment="Center" />
+                <Button Background="White" Content="Кнопка 2" Width="100" Height="30" VerticalAlignment="Center" />
+                <Button Background="White" Content="Кнопка 3" Width="100" Height="30" VerticalAlignment="Center" />
+            </StackPanel>
+
+
+            <TextBlock DockPanel.Dock="Bottom" Text="Строка статуса" Background="#FF333333" Height="20" Width="400" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" TextAlignment="Center" Foreground="White" />
+        </DockPanel>
+
+
+        <DockPanel Background="BlanchedAlmond" VerticalAlignment="Bottom" HorizontalAlignment="Stretch">
+            <Grid VerticalAlignment="Bottom" Height="110" Background="BlanchedAlmond">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <GridSplitter Grid.Column="1" Grid.Row="0" ShowsPreview="False" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" />
+                <GridSplitter Grid.Row="1" Grid.ColumnSpan="3" Height="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" />
+                <Canvas Grid.Column="0" Grid.Row="0" Background="BlanchedAlmond">
+                    <TextBlock TextAlignment="Center" Width="309" Canvas.Left="95" Canvas.Top="19">Левая панель</TextBlock>
+                </Canvas>
+                <Canvas Grid.Column="2" Grid.Row="0" Background="BlanchedAlmond">
+                    <TextBlock Canvas.Left="208" Canvas.Top="19">Правая панель</TextBlock>
+                </Canvas>
+                <WrapPanel Grid.ColumnSpan="3" Grid.Row="2" Background="BlanchedAlmond" ItemHeight="30" ItemWidth="100" Orientation="Horizontal">
+                    <Button Content="1"/>
+                    <Button Content="2"/>
+                    <Button Content="3"/>
+                    <Button Content="4"/>
+                    <Button Content="5"/>
+                    <Button Content="6"/>
+                    <Button Content="7"/>
+                    <Button Content="8"/>
+                    <Button Content="9"/>
+                </WrapPanel>
+            </Grid>
+        </DockPanel>
+
+
+    </Grid>
+</Window>

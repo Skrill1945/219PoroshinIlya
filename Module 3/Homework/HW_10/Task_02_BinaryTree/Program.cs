@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Task_02_BinaryTree
+namespace Task_HW_BinaryTree
 {
     class Node<T>
         where T : IComparable
